@@ -11,7 +11,7 @@ function Login() {
             <input type="password" placeholder='Enter Your Password ' className='form-control'/>
         </form>
         <button className='btn btn-primary'>Login</button>  {/* Added Bootstrap button class */}
-        <p>Don't you have an account? <Link to='/signup'>Signup</Link></p>
+        <p>Don't you have an account <Link to='/signup'>Signup</Link></p>
     </div>
   );
 }
